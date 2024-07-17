@@ -62,7 +62,7 @@ def test_submit_assignment_student_1(client, h_student_1):
         '/student/assignments/submit',
         headers=h_student_1,
         json={
-            'id': 29,
+            'id': 45,
             'teacher_id': 2
         })
 
